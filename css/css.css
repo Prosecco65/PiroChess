@@ -5,6 +5,7 @@ body{
     width: 100%;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .card_color{
@@ -22,9 +23,7 @@ body{
     box-shadow:  4px 4px 8px #ddc1a0,
                  -4px -4px 8px #f7e5cc;
   }
-  #neubar .dropdown-menu a:hover {
-    color: #eeeed2
-  }
+  
   #neubar .nav-item {
     margin : auto 4px;
   }
@@ -34,6 +33,10 @@ body{
   }
   #neubar .dropdown-menu {
     background : #eeeed2
+  }
+  .dropdown-item:hover{
+    color: black;
+    background-color: #b9e2f5;   
   }
   a.navbar-brand {
     color: #eeeed2
